@@ -3,7 +3,7 @@ function Square() {
     this.box = '';
 }
 // Function to mark squares inside table
-Square.prototype.markBox = function () {
+Square.prototype.markBox = function (counter) {
     if (counter === 0) {
         return this.box = 'X';
     }
@@ -12,3 +12,4 @@ Square.prototype.markBox = function () {
     }
 }
 
+module.exports = Square; 
