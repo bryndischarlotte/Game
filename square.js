@@ -12,4 +12,3 @@ Square.prototype.markBox = function (counter) {
     }
 }
 
-module.exports = Square; 

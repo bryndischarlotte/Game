@@ -23,7 +23,7 @@ function Game() {
                     var row = parseInt(squareID[0]);
                     var col = parseInt(squareID[1]);
                     // Pass row/col through grid to mark X
-                    game.board.grid[row][col].markBox();
+                    game.board.grid[row][col].markBox(counter);
                     // Check winner
                     game.board.checkWinner();
                     // Change player

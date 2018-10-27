@@ -31,5 +31,3 @@ Player.prototype.playerText = function () {
         playerTurn.textContent = " O, it's your turn! ";
     }
 }
-
-module.exports = Player;

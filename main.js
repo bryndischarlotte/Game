@@ -1,11 +1,11 @@
-// Main
+// Logic
 var game = new Game();
-var counter = 0;
-var totalMoves = 1;
+let counter = 0;
+let totalMoves = 1;
 
 // Player scores
-var playerX = 0;
-var playerO = 0;
+let playerX = 0;
+let playerO = 0;
 
 // Print winner and increase player score
 function printWinner() {
